@@ -57,18 +57,34 @@ It showcased how the **BabySoC** serves as a bridge between theoretical SoC desi
 
 | Task | Description | Status |
 |------|-------------|--------|
-| **Part 1** | 🎲 **Post Synthesis of GLS** |Performed the synthesis of BabySoC and Compared GLS output with functional simulation output . | ✅ Done |
-| **Part 2** | 🔩 **Fundamentals of STA** |Completed the STA Fundamental course through Udemy. | ✅ Done |
-| **Part 3** | ⌚ **Generate Timing Graphs with OpenSTA** | Loaded synthesized netlist and constraints into OpenSTA and generated the timing graphs. | ✅ Done |
+| **Part 1** | 🎲 **Post Synthesis of GLS** | Performed the synthesis of BabySoC and compared GLS output with functional simulation output. | ✅ Done |
+| **Part 2** | 🔩 **Fundamentals of STA** | Completed the **Static Timing Analysis - I** course through VSD’s Udemy program. | ✅ Done |
+| **Part 3** | ⌚ **Generate Timing Graphs with OpenSTA** | Loaded synthesized netlist and constraints into **OpenSTA** and generated the timing graphs. | ✅ Done |
 
 **Learning Outcome:**  
-Week 3 solidified understanding of **STA** and **GLS** fundamentals.  
-It showcased how the **OpenSTA** is installed and then, used it practically for synthesizing the netlist and getting the timing graphs, which shows the practical hands on experience.
+Week 3 strengthened the understanding of **GLS** and **STA fundamentals**.  
+By exploring **OpenSTA**, this week provided practical insights into **timing analysis, setup/hold constraints, and slack calculations** — essential for timing closure in any RISC-V SoC design.
 
+---
 
+## 📅 Week 4 — Ngspice with SKY130 PDK  
+
+| Day | Focus Area | Description | Status |
+|-----|------------|-------------|--------|
+| **Day 1** | 🧩 **NMOS Drain Current (Id) vs Drain-to-Source Voltage (Vds)** | Understood the **need for SPICE simulations**, studied **NMOS characteristics**, **threshold voltage behavior**, and **regions of operation (resistive & saturation)** using **Sky130 models**. | ✅ Done |
+| **Day 2** | ⚙️ **Velocity Saturation & CMOS Inverter Basics** | Simulated **Id-Vgs** characteristics, analyzed **velocity saturation** for short/long channel devices, and derived **CMOS inverter Voltage Transfer Characteristics (VTC)** through SPICE. | ✅ Done |
+| **Day 3** | 🔋 **CMOS Switching Threshold & Dynamic Simulation** | Performed **VTC simulations**, evaluated **switching threshold (Vm)**, and explored its dependency on transistor dimensions (W/L ratios). Conducted static and dynamic SPICE simulations of CMOS inverters. | ✅ Done |
+| **Day 4** | 🎯 **Noise Margin Evaluation** | Studied **CMOS noise margins**, derived **NMH/NML**, and analyzed **noise margin robustness** with varying PMOS widths using Sky130 labs. | ✅ Done |
+| **Day 5** | ⚡ **Power Supply & Device Variation Robustness** | Simulated **power supply variations**, evaluated **VDD sensitivity**, and explored **device-level process variations** (etching, oxide thickness) and their impact on circuit behavior. | ✅ Done |
+
+**Learning Outcome:**  
+Week 4 introduced practical **analog behavior and transistor-level insights** using **Ngspice** with **Sky130 PDK**.  
+It built a strong foundation in **device-level modeling**, **CMOS inverter characterization**, and **robustness evaluation** — all of which are vital when transitioning from **digital logic** to **physical-level circuit understanding** in SoC design.
+
+---
 
 ## ✨ Closing Note  
-This repository is a **living document** of my Tapeout journey.  
-Each completed week adds another step toward mastering **open-source VLSI design**.  
+This repository serves as a **living document** of my complete **RISC-V SoC Tapeout journey**.  
+Each week brings new layers of understanding — from RTL and synthesis to SPICE-level circuit design — bridging the gap between **theory and real silicon**.  
 
-> *“The best way to learn VLSI is by doing it — one step at a time.”*
+> *“The best way to learn VLSI is by doing it — one simulation, one synthesis, one layout at a time.”*  
